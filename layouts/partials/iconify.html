@@ -1,0 +1,9 @@
+{{ $kit := "" }}
+
+{{ if and $.Site.Params.iconify.kit}}
+{{ $kit = $.Site.Params.iconify.kit }}
+{{ end }}
+
+{{ $src := printf "%s" $kit}}
+
+<script defer src="{{ $src }}" crossorigin="anonymous"></script>

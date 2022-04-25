@@ -1,0 +1,18 @@
+<section class="social-links" id="socialLinks">
+
+    {{ $links := $.Site.Params.podcast }}
+
+    {{ range $k, $v := $links }}
+    {{ if $v }}
+    <a href="{{ $v }}" class="social-links__link mx-1" alt="{{ $k }}" target="_blank" aria-label="{{ $v }}" rel="noopener noreferrer" style="margin: 3px;">
+        <span class="iconify" data-icon="mdi:{{ $k }}"></span>
+    </a>
+    {{ end }}
+    {{ end }}
+
+    <!-- Anchor -->
+    {{ if $.Site.Params.anchor }}
+    {{ partial "anchor.html" . }}
+    {{ end }}
+
+</section>

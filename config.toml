@@ -1,3 +1,126 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Vonfitbjj (Podcast)"
+author = "Vonique Stricklen"           # The author name
+
+theme = "piercer"
+
+description = "" # Description for the meta description tag
+favicon = ""     # Relative URL for your favicon
+logo = ""        # Relative URL for your logo
+
+googleAnalytics = ""            # Your Google Analytics tracking ID
+enableRobotsTXT = true
+defaultContentLanguage = "en"
+language = "en-US"
+paginate = 7
+
+
+[privacy]
+    [privacy.googleAnalytics]
+        anonymizeIP = true
+        disable = false
+        respectDoNotTrack = true
+        useSessionStorage = false
+    [privacy.instagram]
+        disable = false
+        simple = false
+    [privacy.twitter]
+        disable = false
+        enableDNT = true
+        simple = false
+    [privacy.vimeo]
+        disable = false
+        simple = false
+    [privacy.youtube]
+        disable = false
+        privacyEnhanced = true
+
+[params.postcss]
+    postcss = true
+
+[params.palette]
+    text = "#fdfdfd"
+    background = "#282a36"
+    accent = "#44475a"
+    foreground = "#f8f8f2"
+    separator = "#6272a4"
+    cyan = "#8be9fd"
+    green = "#50fa7b"
+    orange = "#ffb86c"
+    pink = "#ff79c6"
+    purple = "#bd93f9"
+    red = "#ff5555"
+    yellow = "#f1fa8c"
+
+[params.fontsizes]
+    base = "1em"
+    p = "1.25em"
+    h4 = "1.563em"
+    h3 = "1.953em"
+    h2 = "2.441em"
+    h1 = "3.052em"
+
+[params.googlefonts]
+    font = ""   # Name of the Google Font you want to use
+
+[params.bootstrapcss]
+    link = "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity = "sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+
+[params.bootstrapjs]
+    link = "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity = "sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+
+[params.iconify]
+    disable = false # Disables or enables Font Awesome (by default is enabled)
+    kit = "https://code.iconify.design/2/2.2.1/iconify.min.js"  # Your Iconify src URL
+
+[params.fa]
+    disable = false # Disables or enables Font Awesome (by default is enabled)
+    kit = "https://kit.fontawesome.com/5908a2b86a.js"  # Your Font Awesome kit's src URL
+
+[params.serviceWorker]
+    enable = true   # enables or disables service worker for caching resources
+
+[params.header]
+    show = true # You can hide the header if you want
+
+[params.anchor]
+    show = true
+    podcast = "Anchor"
+    link = "https://anchor.fm/vonfitbjj_"
+
+[params.podcast]
+    spotify = "https://open.spotify.com/show/3djBbiTC1zvlElMiIvsj5g"
+    podcast = "#"
+    google-podcast = "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy80YjdhNmE0OC9wb2RjYXN0L3Jzcw=="
+    
+[params.date]
+    format = "January 2, 2006"
+
+[params.social]
+    twitter = ""
+    facebook = ""
+    github = ""
+    gitlab = ""
+    codepen = ""
+    instagram = ""
+    pinterest = ""
+    youtube = ""
+    linkedin = ""
+    weibo = ""
+    mastodon = ""
+    tumblr = ""
+    flickr = ""
+    "500px" = ""
+    rss = ""
+
+[params.copy]
+    message = ""
+
+[params.agreement]
+    message = ""    # You can use HTML tags
+
+[params.notfound]
+    message = ""
