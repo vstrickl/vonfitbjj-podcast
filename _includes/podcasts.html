@@ -1,0 +1,5 @@
+{% for podcast in site.podcast %}
+<a href="{{ podcast.url }}" class="social-links__link mx-1" alt="{{ podcast.title }}" target="_blank" aria-label="{{ podcast.url }}" rel="noopener noreferrer">
+    <span class="iconify" data-icon="mdi:{{ podcast.title }}"></span>
+</a>
+{% endfor %}
