@@ -1,12 +1,13 @@
 # Site settings
-title: Von's Podcast
+title: Vonfitbjj_
 email: vstrickl.git@gmail.com
 url: https://podcast.vonfitbjj.com
+lead: "A podcast about fitness, nutrition and local news."
 description: "Click the link below to listen on your favorite podcast service. Choose Anchor for more distributiion options."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary-dark: '#2a55ad'
+  primary-dark: '#040737'
   links: '#fff'
 
 # Footer settings
@@ -27,11 +28,12 @@ social:
 
 # Podcasts
 podcast:
+  - title: link
+    url: https://www.vonfitbjj.com/
   - title: spotify
     url: https://open.spotify.com/show/3djBbiTC1zvlElMiIvsj5g
   - title: podcast
-    url: /
-
+    url: https://podcasts.apple.com/us/podcast/dan-vons-podcast/id1621032392
 anchor:
   - title: anchor
     url: https://anchor.fm/vonfitbjj_
